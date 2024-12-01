@@ -1,6 +1,7 @@
-# Level 1
-In this level we need to find the password stored in a file in home directory
+# Finding pwd to level 2
+In this level we need to find the password stored in the file called "-" in home directory.
 
-To do this we just need to do list the files in home directy which we already are on. To do this we do the "ls" command and after seing only the readme file we will print it with "cat readme" command.
+To accomplish this task, we need to list the files in the home directory, which we are already in. To do this, we use the ls command. After confirming the existence of the - file, we can display its contents using the cat ./- command.
+The use of ./ ensures that - is explicitly treated as a filename, avoiding it being interpreted as a special argument.
 
-![alt text](images/2.png)
+![alt text](images/3.png)
