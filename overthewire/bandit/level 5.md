@@ -10,4 +10,4 @@ This was to filter the 1033 bytes size files in the current directory and every 
 
 Once the correct file is identified, we use cat path\<filename> to display its content and retrieve the password for the next level.
 
-![alt text](7.png)
+![alt text](images\7.png)
