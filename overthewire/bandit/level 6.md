@@ -1,19 +1,18 @@
-# Finding password for level 7
+The information provided to us was that the password is located in a file with the following attributes:
 
-All we know is the password is in a file and the size, user and group owners of the file
-
-owner group: bandit6
-owner user: bandit7
-size: 33bytes
-
-Doing ls, ls -a and ls -a -l as shown bellow we saw that there was no file there with the specifications so we went back some directories with "cd .."
+Owner Group: bandit6
+Owner User: bandit7
+Size: 33 bytes
+After performing ls, ls -a, and ls -a -l as instructed, we couldn’t find a file matching these specifications. We decided to navigate to higher directories using cd .. to broaden our search.
 
 ![alt text](images/8.png)
 
+Next, I used the find command with the -group and -user filters, since the file's owner and group were already known. While we could have also used the -size filter, we assumed the file would be easy to locate based on just these two parameters at this level.
 
-Now we will look for the file with the "find" command using -group and -user filters. We could go for -size also but being only level 6 we assumed the file will be easy to find with only this 2 parameters.
 
 ![alt text](images/9.png)
 
+After reviewing the search results, I found the file among several errors. However, I continued to explore additional commands that could help eliminate these error messages and ultimately found the solution.
 
-After looking through results and between all the errors we the file and used cat command to get the password
+
+![alt text](images/10.png)
