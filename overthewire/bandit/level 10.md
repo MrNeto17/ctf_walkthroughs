@@ -15,7 +15,8 @@ In this level, the task was straightforward: the flag was stored in a file named
 
 2. **Decode the string:**
 
-To decode the string, I used the Linux base64 command with the --decode on the given string and printed it on termianl with the echo command. Here's the command:
+    To decode the string, I used the Linux base64 command with the --decode on the given string and printed it on termianl with the echo command. Here's the command:
 
     `echo "string" | base64 --decode`
+    
 ![alt text](images/16.png)
