@@ -4,7 +4,7 @@ In this exercise I had again the flag in a data.txt but this time it each charac
 
 1. **Getting encoded string:**
 
-    Even tho I know there is ways to do it directly in the linux terminal I took the chance to use python to take the rusty off. Getting first the encoded message with:
+   Even though there are ways to decode a Caesar cipher directly in the Linux terminal, I took this opportunity to brush up on Python. First, I retrieved the encoded message with the following command:
     
     `cat data.txt`
 
@@ -12,7 +12,7 @@ In this exercise I had again the flag in a data.txt but this time it each charac
 
 2. **Making the Script and getting the flag:**
 
-    After having the encoded message I created a small python script in my machine that makes ceaser decryption given a certain message and certain shift. Results shown in the figures
+    After retrieving the encoded message, I created a small Python script on my machine to decrypt the Caesar cipher, allowing input for the encoded message and the shift. Here's the script:
 
 ![alt text](images/17.png)
 
