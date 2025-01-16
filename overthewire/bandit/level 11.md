@@ -8,7 +8,7 @@ In this exercise I had again the flag in a data.txt but this time it each charac
     
     `cat data.txt`
 
-![alt text](images/18.png)
+![alt text](images/19.png)
 
 2. **Making the Script and getting the flag:**
 
